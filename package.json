@@ -1,0 +1,16 @@
+{
+  "name": "lallantop-automation",
+  "version": "1.0.0",
+  "description": "Playwright UI automation for thelallantop.com homepage",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:desktop": "npx playwright test --project=desktop-chrome",
+    "test:mobile": "npx playwright test --project=mobile-chrome",
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test --ui",
+    "report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0"
+  }
+}
