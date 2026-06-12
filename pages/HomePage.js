@@ -42,7 +42,7 @@ class HomePage {
       waitUntil: 'domcontentloaded',
       timeout: 60000 
     });
-
+  }
   /** Get the current page title */
   async getTitle() {
     return await this.page.title();
