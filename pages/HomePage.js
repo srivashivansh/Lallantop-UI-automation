@@ -16,9 +16,9 @@ class HomePage {
 
     // ── Navigation bar ────────────────────────────────────────────────────────
     this.navBar        = page.locator('nav').first();
-    this.navHomeLink   = page.locator('a[href="/"]').first();
-    this.navShowsLink  = page.locator('a[href="/show"]').first();
-    this.navVideoLink  = page.locator('a[href="/video"]').first();
+    this.navHomeLink   = page.locator('a[href="https://www.thelallantop.com"]').first();
+    this.navShowsLink  = page.locator('a[href="https://www.thelallantop.com/show"]').first();
+    this.navVideoLink  = page.locator('a[href="https://www.thelallantop.com/video"]').first();
 
     // ── Hero / top news section ───────────────────────────────────────────────
     this.heroSection   = page.locator('main, [class*="hero"], [class*="top"]').first();
